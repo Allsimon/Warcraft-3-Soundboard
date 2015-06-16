@@ -50,8 +50,6 @@ public abstract class AbstractActivity extends AppCompatActivity {
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow,
                 GravityCompat.START);
         mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
-        final ViewGroup header = (ViewGroup) getLayoutInflater().inflate(R.layout.header_user_account, mDrawerList, false);
-        mDrawerList.addHeaderView(header, null, false);
         mDrawerList.setAdapter(mNavDrawerAdapter);
         prepareListData();
         refreshNavDrawer();

@@ -7,14 +7,16 @@
 
     <ImageView
         android:id="@+id/icon"
-        style="@style/material_icon"
+        android:layout_width="@dimen/icon_big"
+        android:layout_height="@dimen/icon_big"
+        android:layout_centerVertical="true"
         android:layout_marginLeft="@dimen/space_horizontal_margin_icon"
         android:layout_marginStart="@dimen/space_horizontal_margin_icon"
         android:contentDescription="@string/icon" />
 
     <TextView
         android:id="@+id/title"
-        style="@style/material_text_body2_device"
+        style="@style/material_text_subhead_device"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"

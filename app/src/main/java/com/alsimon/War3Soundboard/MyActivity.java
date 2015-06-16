@@ -1,5 +1,10 @@
 package com.alsimon.War3Soundboard;
 
+import com.alsimon.War3Soundboard.model.Race;
+import com.alsimon.War3Soundboard.ui.adapter.NavDrawerItem;
+import com.alsimon.War3Soundboard.ui.fragment.SoundFragment;
+import com.alsimon.War3Soundboard.ui.fragment.SoundFragment_;
+
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.EActivity;
 
@@ -18,12 +23,15 @@ public class MyActivity extends AbstractActivity {
     @Override
     public void prepareListData() {
         mNavDrawerItems = new ArrayList<>();
-//        mNavDrawerItems.add(new NavDrawerItem(getResources().getString(R.string.debridLinks), R.drawable.ic_download) {
-//            @Override
-//            public void onClick() {
-//                changeFragment(new LinkFragment_());
-//            }
-//        });
+        for (Race race : Race.values()) {
+            mNavDrawerItems.add(new NavDrawerItem(getResources().getString(race.getName()), race.getIconId()) {
+                @Override
+                public void onClick() {
+                    changeFragment(new SoundFragment_());
+                }
+            });
+        }
+
         refreshHeader();
         refreshNavDrawer();
     }
