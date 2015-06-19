@@ -1,5 +1,5 @@
 # Warcraft 3 Soundboard
-Source code of the Alldebrid Android app.
+Source code of the Warcraft 3 Soundboard Android app.
 
 ## [Install from Google Play Store](Well, when it's done® :))
 
