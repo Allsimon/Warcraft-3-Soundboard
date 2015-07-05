@@ -1,0 +1,226 @@
+{
+  "units": [
+    {
+      "name": "Paysan",
+      "race": "HUMAN",
+      "sounds": [
+        {
+          "name": "Votre prénom, c'est François, c'est juste ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed1_w3.mp3"
+        },
+        {
+          "name": "Il est bon, c'est un champion du monde !",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed2_w3.mp3"
+        },
+        {
+          "name": "Il pourrait me faire l'historique de la louche à travers les âges ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed3_w3.mp3"
+        },
+        {
+          "name": "Ne m'invitez jamais à diner, j'aurais toujours un doute",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed4_w3.mp3"
+        },
+        {
+          "name": "Il essaie de faire de l'humour, écoutez ça, c'est pathétique",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed5_w3.mp3"
+        },
+        {
+          "name": "Prêt à travailler",
+          "resource": "SoundHuman/Peasant/VF/PeasantReady1_w3.mp3"
+        },
+        {
+          "name": "Aaaaaaaaaaaaaaah",
+          "resource": "SoundHuman/Peasant/VF/PeasantWarcry1_w3.mp3"
+        },
+        {
+          "name": "Oui messire ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantWhat1_w3.mp3"
+        },
+        {
+          "name": "Qu'y a-t-il ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantWhat2_w3.mp3"
+        },
+        {
+          "name": "Encore du travail ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantWhat3_w3.mp3"
+        },
+        {
+          "name": "Pardon ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantWhat4_w3.mp3"
+        },
+        {
+          "name": "Bien",
+          "resource": "SoundHuman/Peasant/VF/PeasantYes1_w3.mp3"
+        },
+        {
+          "name": "Oui Monseigneur!",
+          "resource": "SoundHuman/Peasant/VF/PeasantYes2_w3.mp3"
+        },
+        {
+          "name": "Très bien!",
+          "resource": "SoundHuman/Peasant/VF/PeasantYes3_w3.mp3"
+        },
+        {
+          "name": "Je m'en charge",
+          "resource": "SoundHuman/Peasant/VF/PeasantYes4_w3.mp3"
+        },
+        {
+          "name": "Je peux essayer",
+          "resource": "SoundHuman/Peasant/VF/PeasantYesAttack1_w3.mp3"
+        },
+        {
+          "name": "Si vous le voulez vraiment",
+          "resource": "SoundHuman/Peasant/VF/PeasantYesAttack2_w3.mp3"
+        },
+        {
+          "name": "Vous n'avez personne d'autre ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantYesAttack3_w3.mp3"
+        },
+        {
+          "name": "Ca y est, je suis mort",
+          "resource": "SoundHuman/Peasant/VF/PeasantYesAttack4_w3.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Sorcière",
+      "race": "HUMAN",
+      "sounds": [
+        {
+          "name": "Crois-tu qu'on vive éternellement ?",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed1_w3.mp3"
+        },
+        {
+          "name": "Plutôt embrasser un wookie",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed2_w3.mp3"
+        },
+        {
+          "name": "Parce que je le vaux bien",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed3_w3.mp3"
+        },
+        {
+          "name": "A l'heure du choix chacun est libre",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed4_w3.mp3"
+        },
+        {
+          "name": "Ils engagent des nains maintenant dans le commando ?",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed5_w3.mp3"
+        },
+        {
+          "name": "Vous êtes venu dans cette casserole ? Vous êtes plus courageux que je ne le pensais",
+          "resource": "SoundHuman/Sorceress/VF/SorceressPissed6_w3.mp3"
+        },
+        {
+          "name": "La magie est instable ces jours ci",
+          "resource": "SoundHuman/Sorceress/VF/SorceressReady1_w3.mp3"
+        },
+        {
+          "name": "Pour l'alliance",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWarcry1_w3.mp3"
+        },
+        {
+          "name": "Besoin d'aide, humain ?",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWhat1_w3.mp3"
+        },
+        {
+          "name": "Que cela en vaille la peine",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWhat2_w3.mp3"
+        },
+        {
+          "name": "Que puis je pour vous ?",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWhat3_w3.mp3"
+        },
+        {
+          "name": "J'écoute",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWhat4_w3.mp3"
+        },
+        {
+          "name": "Alors ?",
+          "resource": "SoundHuman/Sorceress/VF/SorceressWhat5_w3.mp3"
+        },
+        {
+          "name": "Si vous insistez",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYes1_w3.mp3"
+        },
+        {
+          "name": "Quelle bonne idée",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYes2_w3.mp3"
+        },
+        {
+          "name": "Il était temps",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYes3_w3.mp3"
+        },
+        {
+          "name": "Encore aux elfes de faire le travail",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYes4_w3.mp3"
+        },
+        {
+          "name": "Vos désirs sont mes ordres",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYesAttack1_w3.mp3"
+        },
+        {
+          "name": "La victoire nous appartient",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYesAttack2_w3.mp3"
+        },
+        {
+          "name": "Sur-le-champ",
+          "resource": "SoundHuman/Sorceress/VF/SorceressYesAttack3_w3.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Rifleman",
+      "race": "ORC",
+      "sounds": [
+        {
+          "name": "Votre prénom, c'est François, c'est juste ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed1_w3.mp3"
+        },
+        {
+          "name": "Il est bon, c'est un champion du monde !",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed2_w3.mp3"
+        },
+        {
+          "name": "Il pourrait me faire l'historique de la louche à travers les âges ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed3_w3.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Rifleman",
+      "race": "ORC",
+      "sounds": [
+        {
+          "name": "Votre prénom, c'est François, c'est juste ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed1_w3.mp3"
+        },
+        {
+          "name": "Il est bon, c'est un champion du monde !",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed2_w3.mp3"
+        },
+        {
+          "name": "Il pourrait me faire l'historique de la louche à travers les âges ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed3_w3.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Rifleman",
+      "race": "ORC",
+      "sounds": [
+        {
+          "name": "Votre prénom, c'est François, c'est juste ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed1_w3.mp3"
+        },
+        {
+          "name": "Il est bon, c'est un champion du monde !",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed2_w3.mp3"
+        },
+        {
+          "name": "Il pourrait me faire l'historique de la louche à travers les âges ?",
+          "resource": "SoundHuman/Peasant/VF/PeasantPissed3_w3.mp3"
+        }
+      ]
+    }
+  ]
+}

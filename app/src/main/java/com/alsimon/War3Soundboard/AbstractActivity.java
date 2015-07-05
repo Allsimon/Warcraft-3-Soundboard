@@ -90,8 +90,7 @@ public abstract class AbstractActivity extends AppCompatActivity {
     }
 
     public void onNavDrawerClickListener(int groupPosition) {
-        // There is -1 because of the header !
-        mNavDrawerItems.get(groupPosition - 1).onClick();
+        mNavDrawerItems.get(groupPosition).onClick();
     }
 
     @Override

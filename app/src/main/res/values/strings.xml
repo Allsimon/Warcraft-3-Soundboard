@@ -8,4 +8,6 @@
     <string name="undead">Undead</string>
     <string name="orc">Orc</string>
     <string name="elf">Elf</string>
+    <string name="campaign">Campaign</string>
+    <string name="neutral">Neutral</string>
 </resources>

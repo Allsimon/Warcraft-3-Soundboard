@@ -1,5 +1,6 @@
 package com.alsimon.War3Soundboard;
 
+import com.alsimon.War3Soundboard.controller.SoundPlayer;
 import com.alsimon.War3Soundboard.model.Race;
 import com.alsimon.War3Soundboard.ui.adapter.NavDrawerItem;
 import com.alsimon.War3Soundboard.ui.fragment.SoundFragment;
@@ -17,21 +18,21 @@ public class MyActivity extends AbstractActivity {
 
     @AfterInject
     public void addCallbacks() {
+        SoundPlayer.INSTANCE.setContext(this);
     }
 
 
     @Override
     public void prepareListData() {
         mNavDrawerItems = new ArrayList<>();
-        for (Race race : Race.values()) {
+        for (final Race race : Race.values()) {
             mNavDrawerItems.add(new NavDrawerItem(getResources().getString(race.getName()), race.getIconId()) {
                 @Override
                 public void onClick() {
-                    changeFragment(new SoundFragment_());
+                    changeFragment(SoundFragment_.builder().arg(SoundFragment.RACE, race).build());
                 }
             });
         }
-
         refreshHeader();
         refreshNavDrawer();
     }
@@ -41,5 +42,6 @@ public class MyActivity extends AbstractActivity {
 
     @Override
     public void initFragment() {
+        changeFragment(new SoundFragment_());
     }
 }
